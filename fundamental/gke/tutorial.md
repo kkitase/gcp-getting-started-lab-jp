@@ -1,8 +1,8 @@
 GKE 編
 
-git clone https://github.com/GoogleCloudPlatform/gcp-getting-started-lab-jp.git  
-cd gcp-getting-started-lab-jp/fundamental/gke  
-cloudshell launch-tutorial tutorial.md  
+git clone https://github.com/GoogleCloudPlatform/gcp-getting-started-lab-jp.git
+cd gcp-getting-started-lab-jp/fundamental/gke
+cloudshell launch-tutorial tutorial.md
 
 ----------
 ```bash
@@ -10,7 +10,10 @@ sudo gcloud components update kubectl
 ```
 
 ----------
+PROJECT_ID を確認する。Cloud Console から、一番上にあるプロジェクトのプルダウンリストを表示すると PROJECT_ID を確認できる。
+
 ```bash
+gcloud config set project PROJECT_ID
 export PROJECT_ID="$(gcloud config get-value project -q)"
 ```
 
