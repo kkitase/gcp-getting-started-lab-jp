@@ -1,8 +1,8 @@
 GKE 編
 
-git clone https://github.com/GoogleCloudPlatform/gcp-getting-started-lab-jp.git
-cd gcp-getting-started-lab-jp/fundamental/gke
-cloudshell launch-tutorial tutorial.md
+git clone https://github.com/GoogleCloudPlatform/gcp-getting-started-lab-jp.git  
+cd gcp-getting-started-lab-jp/fundamental/gke  
+cloudshell launch-tutorial tutorial.md  
 
 ----------
 ```bash
